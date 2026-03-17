@@ -1,0 +1,142 @@
+.parlamentares-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    padding: 0 10px;
+}
+
+.parlamentares-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    border-bottom: 2px solid #0056b3;
+    display: inline-block;
+    position: relative;
+}
+
+
+.tile-parlamentares ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.tile-parlamentares li {
+    position: relative;
+    height: 250px; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+    background-color: #fff;
+}
+
+.tile-parlamentares li:hover {
+    transform: translateY(-5px);
+}
+
+.tile-parlamentares li:hover img {
+    transform: scale(1.05);
+}
+
+.link-mascara {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; 
+    cursor: pointer; 
+    background: transparent; 
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.tile-parlamentares img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.4) 75%, rgba(0,0,0,0.8) 100%);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.card-text {
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.nome {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+
+.cargo {
+    display: block;
+    font-size: 0.8rem;
+    color: #ffda79; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.partido-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255,255,255,0.9);
+    color: #333;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 6;
+}
+
+@media (max-width: 1024px) {
+    .tile-parlamentares ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .tile-parlamentares ul {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    .tile-parlamentares li {
+        height: 200px;
+    }
+    .nome {
+        font-size: 0.95rem;
+    }
+    .card-overlay {
+        padding: 10px;
+    }
+}

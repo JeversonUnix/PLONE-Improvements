@@ -1,0 +1,102 @@
+.proxima-sessao-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.sessao-card {
+    background: linear-gradient(135deg, #1a3a64 0%, #0056b3 100%);
+    border-radius: 12px;
+    padding: 25px 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sessao-icone i {
+    font-size: 3.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sessao-info {
+    flex-grow: 1;
+}
+
+.sessao-badge {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.sessao-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.6rem;
+    color: #fff;
+    border: none;
+}
+
+.sessao-info p {
+    margin: 0;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.btn-sessao {
+    background: #fff;
+    color: #1a3a64;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn-sessao:hover {
+    background: #ffda79;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+.btn-sessao.ao-vivo {
+    background: #e74c3c;
+    color: #fff;
+    animation: piscarAoVivo 1.5s infinite;
+}
+
+.btn-sessao.ao-vivo:hover {
+    background: #c0392b;
+}
+
+@keyframes piscarAoVivo {
+    0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(231, 76, 60, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+
+@media (max-width: 768px) {
+    .sessao-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .sessao-acao {
+        width: 100%;
+    }
+    .btn-sessao {
+        display: block;
+        width: 100%;
+    }
+}
