@@ -24,3 +24,13 @@ DASHBOARD:
 <p align="center">
   <img src="SAPL - DASHBOARD/video.gif" width="600" title="Demonstração do App">
 </p>
+
+VEREADORES:
+<p align="center">
+  <img src="SAPL - VEREADORES/video.gif" width="600" title="Demonstração do App">
+</p>
+
+VEREADORES:
+<p align="center">
+  <img src="SAPL - PROXIMA SESSAO/video.gif" width="600" title="Demonstração do App">
+</p>
