@@ -36,7 +36,7 @@ Veja abaixo como os componentes funcionam na prática após a integração:
 <img src="SAPL - DASHBOARD/video.gif" width="600" alt="Demonstração do Dashboard de Produtividade">
 </p>
 
-🧑‍💼 Perfil e Modal dos Vereadores
+🧑‍💼 Perfil dos parlamentares
 <p align="center">
 <img src="SAPL - VEREADORES/video.gif" width="600" alt="Demonstração dos Cards e Modal de Vereadores">
 </p>
@@ -46,8 +46,3 @@ Veja abaixo como os componentes funcionam na prática após a integração:
 <img src="SAPL - PROXIMA SESSAO/image.png" width="600" alt="Demonstração do Alerta de Próxima Sessão">
 </p>
 
-
-🔴 Alerta de Próxima Sessão
-<p align="center">
-<img src="SAPL - PROXIMA SESSAO/image.png" width="600" alt="Demonstração do Alerta de Próxima Sessão">
-</p>
