@@ -19,3 +19,6 @@ $(document).ready(function() {
     }
 
 });
+
+DASHBOARD:
+![Demonstração do App](PLONE-Improvements/SAPL - DASHBOARD/video.gif)
