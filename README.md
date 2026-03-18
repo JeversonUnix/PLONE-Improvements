@@ -2,7 +2,7 @@
 
 Os arquivos organizados nas pastas deste repositório devem ser incorporados diretamente ao seu tema atual do Plone.
 
-🔴 LEMBRE-SE QUE NO ARQUIVO JAVASCRIPT - AS "URLS" DEVEM SEREM TROCADAS PELA URL DO SAPL UTILIZADO DA SUA CASA LEGISLATIVA.
+🔴 LEMBRE-SE QUE NOS ARQUIVOS JAVASCRIPTS - AS "URLS" DEVEM SEREM TROCADAS PELA URL DO SAPL UTILIZADO DA SUA CASA LEGISLATIVA.
 
  <p> var reqIndicacoes   = $.ajax( <b>{ url: 'https://sapl.fozdoiguacu.pr.leg.br/api/materia/materialegislativa/?ano=' + anoAtual + '&tipo=1', type: 'GET' });</b></b> </p>
  
