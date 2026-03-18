@@ -7,6 +7,7 @@ Após adicionar o escopo das funções no seu arquivo principal de scripts `func
 
 Para isso, insira as chamadas de inicialização dentro do bloco `$(document).ready()`. Utilizamos uma verificação de segurança (`.length > 0`) para garantir que a requisição à API só aconteça se o componente existir na página atual:
 
+
 ```javascript
 $(document).ready(function() {
     
@@ -26,7 +27,7 @@ $(document).ready(function() {
     }
 
 });
-
+```
 📸 Demonstração das Funcionalidades
 Veja abaixo como os componentes funcionam na prática após a integração:
 
@@ -39,6 +40,12 @@ Veja abaixo como os componentes funcionam na prática após a integração:
 <p align="center">
 <img src="SAPL - VEREADORES/video.gif" width="600" alt="Demonstração dos Cards e Modal de Vereadores">
 </p>
+
+🔴 Alerta de Próxima Sessão
+<p align="center">
+<img src="SAPL - PROXIMA SESSAO/image.png" width="600" alt="Demonstração do Alerta de Próxima Sessão">
+</p>
+
 
 🔴 Alerta de Próxima Sessão
 <p align="center">
