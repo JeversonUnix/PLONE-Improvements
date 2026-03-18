@@ -22,5 +22,5 @@ $(document).ready(function() {
 
 DASHBOARD:
 <p align="center">
-  <img src="PLONE-Improvements/SAPL - DASHBOARD/video.gif" width="600" title="Demonstração do App">
+  <img src="SAPL - DASHBOARD/video.gif" width="600" title="Demonstração do App">
 </p>
