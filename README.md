@@ -21,4 +21,6 @@ $(document).ready(function() {
 });
 
 DASHBOARD:
-![Demonstração do App](PLONE-Improvements/SAPL - DASHBOARD/video.gif)
+<p align="center">
+  <img src="PLONE-Improvements/SAPL - DASHBOARD/video.gif" width="600" title="Demonstração do App">
+</p>
