@@ -32,5 +32,5 @@ VEREADORES:
 
 VEREADORES:
 <p align="center">
-  <img src="SAPL - PROXIMA SESSAO/video.gif" width="600" title="Demonstração do App">
+  <img src="SAPL - PROXIMA SESSAO/image.png" width="600" title="Demonstração do App">
 </p>
